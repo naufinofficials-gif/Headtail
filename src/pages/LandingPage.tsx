@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';import { motion } from 'framer-motion';import { Coins, Users, Shield, Zap, ChevronRight, Play, Star, Wallet, Gift, TrendingUp } from 'lucide-react';export default function LandingPage() {  const features = [    { icon: Coins, title: 'Coin Flip Game', desc: 'Permainan Head & Tail yang adil dan transparan dengan peluang menang 50:50' },    { icon: Wallet, title: 'Deposit & Withdraw', desc: 'Transaksi cepat melalui E-Wallet dan Bank Transfer dengan proses otomatis' },    { icon: Gift, title: 'Affiliate Program', desc: 'Dapatkan bonus referral dengan mengajak teman bergabung di platform kami' },    { icon: Shield, title: 'Keamanan Terjamin', desc: 'Sistem keamanan berlapis untuk melindungi data dan transaksi Anda' },  ];  const stats = [    { value: '50K+', label: 'Active Players' },    { value: 'Rp 10M+', label: 'Total Payout' },    { value: '99.9%', label: 'Uptime' },    { value: '24/7', label: 'Support' },  ];  return (    <div className="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-indigo-950">      {/* Animated Background */}
+import { Link } from 'react-router-dom';import { motion } from 'framer-motion';import { Coins, Users, Shield, Zap, ChevronRight, Play, Star, Wallet, Gift, TrendingUp } from 'lucide-react';export default function LandingPage() {  const features = [    { icon: Coins, title: 'Tebak Gambar Coin', desc: 'Permainan Tebak Gambar Coin yang adil dan transparan dengan peluang menang 50:50' },    { icon: Wallet, title: 'Deposit & Withdraw', desc: 'Transaksi cepat melalui E-Wallet dan Bank Transfer dengan proses otomatis' },    { icon: Gift, title: 'Affiliate Program', desc: 'Dapatkan bonus referral dengan mengajak teman bergabung di platform kami' },    { icon: Shield, title: 'Keamanan Terjamin', desc: 'Sistem keamanan berlapis untuk melindungi data dan transaksi Anda' },  ];  const stats = [    { value: '200+', label: 'Active Players' },    { value: 'Rp 2jt+', label: 'Total Payout' },    { value: '99.9%', label: 'Uptime' },    { value: '24/7', label: 'Support' },  ];  return (    <div className="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-indigo-950">      {/* Animated Background */}
       <div className="fixed inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-1/4 -left-20 w-96 h-96 bg-amber-500/20 rounded-full blur-[120px] animate-pulse" />
         <div className="absolute bottom-1/4 -right-20 w-96 h-96 bg-indigo-500/20 rounded-full blur-[120px] animate-pulse delay-1000" />
@@ -17,7 +17,7 @@ import { Link } from 'react-router-dom';import { motion } from 'framer-motion';i
               </div>
               <div>
                 <span className="text-2xl font-bold bg-gradient-to-r from-amber-200 to-amber-400 bg-clip-text text-transparent">
-                  CoinFlip
+                  Tebak Gambar Coin
                 </span>
                 <span className="text-xs text-slate-400 block -mt-1">PRO</span>
               </div>
@@ -60,13 +60,13 @@ import { Link } from 'react-router-dom';import { motion } from 'framer-motion';i
               <h1 className="text-5xl lg:text-7xl font-bold text-white leading-tight mb-6">
                 Main{' '}
                 <span className="bg-gradient-to-r from-amber-200 via-amber-400 to-orange-400 bg-clip-text text-transparent">
-                  Head & Tail
+            Tebak Gambar Coin
                 </span>
                 <br />
                 Menangkan Hadiah Besar!
               </h1>
               <p className="text-xl text-slate-400 mb-8 leading-relaxed">
-                Rasakan sensasi permainan coin flip yang adil dan transparan. 
+                Rasakan sensasi permainan Tebak Gambar Coin yang adil dan transparan. 
                 Deposit instan, withdraw cepat, dan bonus affiliate menarik setiap hari!
               </p>
               <div className="flex flex-wrap gap-4">
@@ -259,10 +259,10 @@ import { Link } from 'react-router-dom';import { motion } from 'framer-motion';i
               <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center">
                 <Coins className="w-5 h-5 text-white" />
               </div>
-              <span className="text-xl font-bold text-white">CoinFlip Pro</span>
+              <span className="text-xl font-bold text-white">Tebak Gambar Coin</span>
             </div>
             <p className="text-slate-500 text-sm">
-              © 2024 CoinFlip Pro. All rights reserved.
+              © 2026 Tebak Gambar Coin - Game Populer. All rights reserved.
             </p>
             <div className="flex items-center gap-6 text-sm text-slate-400">
               <a href="#" className="hover:text-amber-400 transition-colors">Terms</a>

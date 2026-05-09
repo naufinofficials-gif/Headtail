@@ -92,11 +92,6 @@ export default function Login({ onLogin }: LoginProps) {
           </div>
           {/* Admin Info */}
           <div className="mb-6 p-4 bg-amber-500/10 border border-amber-500/20 rounded-xl">
-            <div className="flex items-center gap-2 text-amber-400 text-sm">
-              <Shield className="w-4 h-4" />
-              <span className="font-medium">Admin Login:</span>
-            </div>
-            <p className="text-slate-400 text-xs mt-1">admin@coinflip.com / admin123</p>
           </div>
           {/* Error Message */}
           {error && (
