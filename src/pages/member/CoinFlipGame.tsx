@@ -86,7 +86,7 @@ export default function CoinFlipGame({ user }: CoinFlipGameProps) {
     setIsFlipping(false);
     setMessage(isWinner ? `Selamat! Anda menang Rp ${bet.toLocaleString('id-ID')}!` : `Maaf, Anda kalah Rp ${bet.toLocaleString('id-ID')}`);
   };
-  const quickBets = [10000, 50000, 100000, 200000, 500000];
+  const quickBets = [1000, 5000, 10000, 20000, 50000];
   return (
     <div className="max-w-4xl mx-auto">
       <div className="flex items-center justify-between mb-8">

@@ -15,7 +15,7 @@ export default function MemberDeposit({ user }: DepositProps) {
   const gameSettings = JSON.parse(localStorage.getItem('gameSettings') || '{"minDeposit": 50000}');
   const transactions = JSON.parse(localStorage.getItem('transactions') || '[]') as Transaction[];
   const userTransactions = transactions.filter(t => t.userId === user?.id && t.type === 'deposit');
-  const quickAmounts = [50000, 100000, 200000, 500000, 1000000];
+  const quickAmounts = [10000, 20000, 50000, 100000, 500000];
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     const depositAmount = parseInt(amount);
